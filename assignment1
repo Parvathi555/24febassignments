@@ -1,0 +1,19 @@
+l=[]
+n=int(input())
+for i in range(n):
+    x=int(input())
+    l.append(x)
+for i in range(2,n):
+    if l[i]%i==0:
+        continue
+    else:
+        print(l[i])
+        
+        
+ output:5
+        9
+        8
+        7
+        6
+        4
+        7
